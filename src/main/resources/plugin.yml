@@ -1,0 +1,14 @@
+name: EffectChanger
+version: '${project.version}'
+main: it.ajstudios.main
+api-version: 1.17
+authors: [ AJstudios ]
+commands:
+  seteffect:
+    description: Imposta un effetto che aumenta di potenza in base al tempo del
+    usage: /<command>
+    permission: effectchanger.seteffect
+  effectlist:
+    description: Guarda la lista di tutti i poteri.
+    usage: /<command>
+    permission: effectchanger.effectlist
